@@ -5,9 +5,9 @@ public class Main {
         Box box = new Box(100, "Желтый", false, true);
         box.changeColor("Красный");
         box.openBox();
-        box.putItem();
-        box.boxInfo();
-
+        box.closeBox();
+        box.putItem("Мячик");
+        box.info();
 
 
         User[] users = new User[10];
